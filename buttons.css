@@ -1,0 +1,26 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+#container {
+	width: 600px;
+	height: 600px;
+	border: 2px solid black;
+	background-image: url(images/bg0.jpg);
+	position: relative;
+}
+#numberImage {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.button-container {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+button {
+	padding: 15px 28px;
+	margin: 0px 2px;
+	background-color: #4CB050;
+	border: none;
+}
